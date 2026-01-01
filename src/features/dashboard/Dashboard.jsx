@@ -1,10 +1,10 @@
-import MetricCard from '../components/MetricCard'
-import StackedBarChart from '../components/StackedBarChart'
-import DataSourceUsage from '../components/DataSourceUsage'
-import LineChart from '../components/LineChart'
-import RiskDistribution from '../components/RiskDistribution'
-import ApplicationsTable from '../components/ApplicationsTable'
-import ScoreDistribution from '../components/ScoreDistribution'
+import MetricCard from './components/MetricCard'
+import StackedBarChart from './components/StackedBarChart'
+import DataSourceUsage from './components/DataSourceUsage'
+import LineChart from './components/LineChart'
+import RiskDistribution from './components/RiskDistribution'
+import ApplicationsTable from './components/ApplicationsTable'
+import ScoreDistribution from './components/ScoreDistribution'
 import { TrendingDown } from 'lucide-react'
 
 function Dashboard() {

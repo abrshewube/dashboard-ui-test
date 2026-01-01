@@ -1,10 +1,10 @@
-import MetricCard from '../components/MetricCard'
-import StackedBarChart from '../components/StackedBarChart'
-import DataSourceUsage from '../components/DataSourceUsage'
-import LineChart from '../components/LineChart'
-import RiskDistribution from '../components/RiskDistribution'
-import ApplicationsTable from '../components/ApplicationsTable'
-import ScoreDistribution from '../components/ScoreDistribution'
+import MetricCard from '../dashboard/components/MetricCard'
+import StackedBarChart from '../dashboard/components/StackedBarChart'
+import DataSourceUsage from '../dashboard/components/DataSourceUsage'
+import LineChart from '../dashboard/components/LineChart'
+import RiskDistribution from '../dashboard/components/RiskDistribution'
+import ApplicationsTable from '../dashboard/components/ApplicationsTable'
+import ScoreDistribution from '../dashboard/components/ScoreDistribution'
 
 function Monitoring() {
   return (

@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
-import Dashboard from './pages/Dashboard'
-import WorkflowBuilder from './pages/WorkflowBuilder'
-import Monitoring from './pages/Monitoring'
+import Layout from '../shared/components/layout/Layout'
+import Dashboard from '../features/dashboard/Dashboard'
+import WorkflowBuilder from '../features/workflow/WorkflowBuilder'
+
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/workflow" element={<WorkflowBuilder />} />
-          <Route path="/monitoring" element={<Monitoring />} />
         </Routes>
       </Layout>
     </Router>

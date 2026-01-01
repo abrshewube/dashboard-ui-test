@@ -1,6 +1,6 @@
-import BuildingBlocks from '../components/BuildingBlocks'
-import WorkflowCanvas from '../components/WorkflowCanvas'
-import CreditEnginePanel from '../components/CreditEnginePanel'
+import BuildingBlocks from './components/BuildingBlocks'
+import WorkflowCanvas from './components/WorkflowCanvas'
+import CreditEnginePanel from './components/CreditEnginePanel'
 import { Check } from 'lucide-react'
 
 function WorkflowBuilder() {
