@@ -1,0 +1,43 @@
+.score-distribution {
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.score-chart {
+  width: 100%;
+  min-width: 700px;
+}
+
+.score-legend {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #888;
+}
+
+.legend-color {
+  width: 24px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.legend-color.light {
+  background-color: #86efac;
+}
+
+.legend-color.dark {
+  background-color: #22c55e;
+}
+

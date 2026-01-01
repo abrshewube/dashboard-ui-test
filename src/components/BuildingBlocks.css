@@ -1,0 +1,68 @@
+.building-blocks {
+  padding: 24px;
+}
+
+.panel-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.panel-subtitle {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 24px;
+}
+
+.blocks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.block-item {
+  display: flex;
+  gap: 12px;
+  padding: 14px;
+  background-color: #252525;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.block-item:hover {
+  background-color: #2a2a2a;
+  border-color: #404040;
+}
+
+.block-icon {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.block-content {
+  flex: 1;
+}
+
+.block-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.block-description {
+  font-size: 11px;
+  color: #999;
+  line-height: 1.5;
+}
+

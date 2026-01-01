@@ -1,0 +1,50 @@
+.stacked-bar-chart {
+  margin-top: 20px;
+}
+
+.chart-bar {
+  display: flex;
+  height: 32px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.chart-segment {
+  height: 100%;
+}
+
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.legend-label {
+  flex: 1;
+  color: #ccc;
+}
+
+.legend-value {
+  color: #fff;
+  font-weight: 500;
+}
+
+.legend-percentage {
+  color: #888;
+  font-size: 12px;
+}
+
